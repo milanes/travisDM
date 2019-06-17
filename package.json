@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "int-test": "mocha --require babel-core/register --recursive test"	
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/milanes/travisDM/issues"
   },
-  "homepage": "https://github.com/milanes/travisDM#readme"
+  "homepage": "https://github.com/milanes/travisDM#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
 }
